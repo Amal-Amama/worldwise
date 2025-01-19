@@ -39,11 +39,7 @@ function App() {
           /> */}
               {/* equal to */}
               <Route index element={<Navigate replace to="cities" />} />
-              <Route
-                path="cit
-              ies"
-                element={<CityList />}
-              />
+              <Route path="cities" element={<CityList />} />
               <Route path="cities/:id" element={<City />} />
               <Route path="countries" element={<CountryList />} />
               <Route path="form" element={<Form />} />
