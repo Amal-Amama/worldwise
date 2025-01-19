@@ -16,7 +16,7 @@ function User() {
     logout();
     navigate("/");
   }
-
+  // if (!user) return;
   return (
     <div className={styles.user}>
       <img src={user.avatar} alt={user.name} />
